@@ -12,7 +12,7 @@ def index():
   return index_real()
 
 
-@blueprint.route('/api/example')
+@blueprint.route('/api/example/')
 def example():
   """Responds with hello.
   
